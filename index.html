@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullish kicks</title>
+    <link rel="icon" href="Adobe Express - file.png">
+<style>
+        h1{
+            color: white;
+            text-align: center;
+        }
+         h2{
+        text-align: center;       
+         }
+          body {
+           background-image: url(lebron/lebron\ home.jpg);
+         width: 100%;
+         }
+        header {
+            background-color: rgba(0, 0, 0, 0.7); 
+            color: white;
+            text-align: center;
+            padding: 20px ;
+            
+         }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333;
+            display: flex;
+        }
+
+        li {
+            flex: 1;
+            text-align: center;
+        }
+
+        a {
+            display: block;
+            color: white;
+            padding: 14px;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: #575757;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .content {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.1);;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+           
+         }
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        p {
+            font-size: 22px;
+            color: white;
+            background: white(48, 47, 47) 
+           
+        }
+        .sidebar {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+        .sidebar-right{ 
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+        .middle {
+        width: 55%;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 5px;
+      }
+   .bouncing-shoe {
+    position: fixed;
+    right: 50px; 
+    bottom: 0;
+    width: 100px; 
+    height: auto;
+    animation: bounce  43s infinite;
+    }
+
+    .bouncing-shoe-2 {
+    right: 150px; 
+    animation: bounce  47s infinite;
+    }
+
+    .bouncing-shoe-3 {
+    right: 250px; 
+    animation: bounce 36s infinite;
+    }
+
+    .bouncing-shoe-4 {
+    right: 350px; 
+    animation: bounce 45s infinite;
+    }
+
+@keyframes bounce {
+    0%, 100% {
+        bottom: 0;
+        animation-timing-function: ease-out;
+    }
+    50% {
+        bottom: 80%; 
+        animation-timing-function: ease-in;
+    }
+}
+
+        @keyframes bounce {
+            0%, 100% {
+                bottom: 0;
+                animation-timing-function: ease-out;
+            }
+            50% {
+                bottom: 80%; 
+                animation-timing-function: ease-in;
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .bouncing-shoe {
+                right: 20px; 
+                width: 80px; 
+            } 
+        }
+    </style>
+</head>
+<body>
+<div>
+  <header>
+    <h1>BULLISH KICKS</h1>
+</div>
+  </header>
+
+<div>
+    <ul>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Enquiry.html">Enquiry</a></li>
+        <li><a href="products and services.html">Products & Services</a></li>
+    </ul>
+</div> 
+<br>
+<div class="middle">
+    <h2>Welcome to Bullish Kicks</h2>
+    <p>We provide the latest and trendiest sneakers for all sneaker lovers. 
+        Check out our collection and find the perfect pair for you!</p>
+</div>
+<div class="sidebar">
+    <h1>IN STORE</h1>
+    <div class="image-gallery">
+        <a href="products and services.html"><img src="images/bape 1.webp" alt="Bape Shoe"></a>
+        <a href="products and services.html"><img src="images bape black/1.webp" alt="Bape Shoe"></a>
+    </div>
+</div>
+<div class="sidebar">
+    <div class="image-gallery">
+        <a href="products and services.html"><img src="images bape white/bape star 1.webp" alt="Bape Shoe"></a>
+        <a href="products and services.html"><img src="images nike/AIR+ZOOM+SPIRIDON+CAGE+2.png" alt="Bape Shoe"></a>
+    </div>
+</div><br>
+
+<a href="contact.html"><img src="bounce/nike af1.png" alt="Bouncing Shoe 1" class="bouncing-shoe bouncing-shoe-1"></a>
+<a href="AboutUs.html"><img src="bounce/jordan.png"alt=" Bouncing Shoe 2" class="bouncing-shoe bouncing-shoe-2"></a>
+<a href="products and services.html"><img src="bounce/nike air.png" alt="Bouncing Shoe 3" class="bouncing-shoe bouncing-shoe-3"></a>
+<a href="Enquiry.html" ><img src="bounce/Adobe Express - file (1).png"alt="bouncing Shoe 4" class="bouncing-shoe bouncing-shoe-4"></a>
+
+
+  <footer>
+      &copy; 2025 BULLISH KICKS | All Rights Reserved<br>
+      <a href="https://www.instagram.com/lifesbullish/">Instagram : Lifesbullish</a>
+
+  </footer>
+
+</body>
+</html>
